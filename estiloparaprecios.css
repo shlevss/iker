@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white; 
+}
+
+
+header {
+    background-color: #222; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid red; 
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: red;
+}
+
+nav {
+    background-color: #111; 
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    border-bottom: 2px solid red; 
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+section {
+    margin: 20px auto;
+    width: 80%; 
+    padding: 20px;
+    background-color: #222; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+
+h2 {
+    color: red;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+
+
+.servicio-detalle {
+    margin-bottom: 30px;
+    text-align: justify;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #333; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.servicio-detalle h3 {
+    color: red;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.servicio-detalle p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+    border-top: 2px solid red;
+    margin-top: 20px;
+}
