@@ -226,6 +226,16 @@ footer {
     margin: 10px 0; 
 }
 
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+    border-top: 2px solid red;
+    margin-top: 20px;
+    font-size: 0.9em; /* Tamaño de letra ligeramente reducido */
+    color: white;
+}
+
 
 
     
