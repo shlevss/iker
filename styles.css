@@ -100,12 +100,6 @@ section {
     padding: 40px 20px;
 }
 
-footer {
-    background-color: red;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
 
 #nosotros {
     background-color: #222; 
@@ -226,15 +220,18 @@ footer {
     margin: 10px 0; 
 }
 
+
 footer {
     text-align: center;
     padding: 10px 0;
     background-color: #111;
     border-top: 2px solid red;
     margin-top: 20px;
-    font-size: 0.9em; /* Tamaño de letra ligeramente reducido */
+    font-size: 0.9em; 
     color: white;
 }
+
+
 
 
 
